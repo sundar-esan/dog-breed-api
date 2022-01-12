@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs Breed api</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tit">GET DOG IMAGE</div>
+    <p>Description:</p>
+    <p>In this webpage you will get the dog image ,based 
+      on the selected dog breed
+    </p>
+    <p>Let's try it now!!!</p>
+    
+    <div id="box">
+    <label for>Select the dog breed:</label>
+
+    <select id="dogbreed" name="breeds">
+      
+      </select>
+      <button onclick="getdata()" id="search">search</button>
+      <div id="img"></div>
+      <p style="font-size: medium" >For various dog picture  </p>
+      <p style="font-size: medium" >Click below the refresh button </p>
+      <button onclick="getdata()" id="refresh">Refresh</button>
+      </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>

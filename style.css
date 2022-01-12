@@ -1,0 +1,43 @@
+body{
+    background-color: pink;
+}
+.tit{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+p{
+    font-size: 25px;;
+}
+
+#dogbreed{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+label{
+    font-size: 30px;
+    color:black;
+}
+
+#search{
+ font-size: 27px;
+ background-color: turquoise;
+ border:1px solid yellow;
+}
+
+
+#refresh{
+    font-size: 27px;
+    background-color:greenyellow;
+    border:1px solid red;
+    margin-left: 15%;
+   }
+   #box{
+           padding:50px;
+           
+           border:1px dotted black;
+           background-color:rgb(178, 178, 211) ;
+   }
